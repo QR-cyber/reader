@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi página simple</title>
+  <meta name="description" content="Ejemplo de página web simple para publicar.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>¡Hola, mundo!</h1>
+    <p>Esta es una página web estática súper simple.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Contenido</h2>
+      <p>
+        Editá este texto en <code>index.html</code>, sumá secciones y
+        personalizá los estilos en <code>style.css</code>.
+      </p>
+      <button id="cta">Probá el botón</button>
+      <p id="msg" class="hidden"></p>
+    </section>
+
+    <section class="card">
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Learn" target="_blank" rel="noopener">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">W3Schools HTML</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; 2025 Tu Nombre</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
